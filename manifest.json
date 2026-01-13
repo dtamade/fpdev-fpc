@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-01-14T00:00:00Z",
+  "repository": {
+    "name": "fpdev-fpc",
+    "type": "fpc",
+    "description": "Pre-built FPC binary releases"
+  },
+
+  "releases": {
+    "3.2.2": {
+      "release_date": "2021-05-20",
+      "platforms": {}
+    },
+    "3.2.0": {
+      "release_date": "2020-06-19",
+      "platforms": {}
+    }
+  }
+}
