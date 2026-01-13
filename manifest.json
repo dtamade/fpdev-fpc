@@ -10,7 +10,48 @@
   "releases": {
     "3.2.2": {
       "release_date": "2021-05-20",
-      "platforms": {}
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-linux-x86_64.tar.gz",
+          "mirrors": [
+            "https://gitee.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-linux-x86_64.tar.gz"
+          ],
+          "format": "tar.gz",
+          "sha256": "46c083c7308a6fb978f0244c0e2e7c4217210200232923f777fc4f0483ca1caf",
+          "size": 85384375,
+          "components": ["compiler", "rtl", "units", "utils"]
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-windows-x86_64.zip",
+          "mirrors": [
+            "https://gitee.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-windows-x86_64.zip"
+          ],
+          "format": "zip",
+          "sha256": "7182b02643594b082997f1c3af25171ffb85e89c57af1d036b26a1339f749c98",
+          "size": 86963689,
+          "components": ["compiler", "rtl", "units", "utils"]
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-darwin-x86_64.tar.gz",
+          "mirrors": [
+            "https://gitee.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-darwin-x86_64.tar.gz"
+          ],
+          "format": "tar.gz",
+          "sha256": "d0fab36b784273c8c5d79f03c0b5ca29ba282386e3c54a4161fbebf9796659e3",
+          "size": 134990974,
+          "components": ["compiler", "rtl", "units", "utils"]
+        },
+        "darwin-aarch64": {
+          "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-darwin-aarch64.tar.gz",
+          "mirrors": [
+            "https://gitee.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-darwin-aarch64.tar.gz"
+          ],
+          "format": "tar.gz",
+          "sha256": "f3ec0009d4389633be740f8428cd08f6f2ee2381addde846d1afa5ed8b82a86f",
+          "size": 133797671,
+          "components": ["compiler", "rtl", "units", "utils"]
+        }
+      }
     },
     "3.2.0": {
       "release_date": "2020-06-19",
