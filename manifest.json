@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-01-14T00:00:00Z",
+  "updated_at": "2026-01-15T11:45:00Z",
   "repository": {
     "name": "fpdev-fpc",
     "type": "fpc",
@@ -55,7 +55,33 @@
     },
     "3.2.0": {
       "release_date": "2020-06-19",
-      "platforms": {}
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.0/fpc-3.2.0-x86_64-linux.tar",
+          "mirrors": [],
+          "format": "tar",
+          "sha256": "d19252e6cfe52f1217f4822a548ee699eaa7e044807aaf8429a0532cb7e4cb3d",
+          "size": 84934656,
+          "components": ["compiler", "rtl", "units", "utils"]
+        },
+        "windows-i386": {
+          "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.0/fpc-3.2.0.i386-win32.exe",
+          "mirrors": [],
+          "format": "exe",
+          "sha256": "1dad1ec72d7fdace2612bb3ea25e3209cd15d655fc85d3f94fb0bf2fe47611c8",
+          "size": 53136366,
+          "components": ["compiler", "rtl", "units", "utils"]
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.0/fpc-3.2.0.intel-macosx.dmg",
+          "mirrors": [],
+          "format": "dmg",
+          "sha256": "77a55f4ab985124bb550e6fa80dfbb2c3ee449c41261325f2623e01a6afd13ad",
+          "size": 169412171,
+          "components": ["compiler", "rtl", "units", "utils"]
+        }
+      },
+      "notes": "FPC 3.2.0 - Windows only has i386 native installer (x86_64 available as cross-compiler addon)"
     }
   }
 }
