@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-01-15T11:45:00Z",
+  "updated_at": "2026-01-15T12:00:00Z",
   "repository": {
     "name": "fpdev-fpc",
     "type": "fpc",
@@ -82,6 +82,36 @@
         }
       },
       "notes": "FPC 3.2.0 - Windows only has i386 native installer (x86_64 available as cross-compiler addon)"
+    },
+    "3.0.4": {
+      "release_date": "2017-11-27",
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.0.4/fpc-3.0.4.x86_64-linux.tar",
+          "mirrors": [],
+          "format": "tar",
+          "sha256": "7e965baf13c9822a0ff39e7bbfa040bd5599e94d0f3338f1ac4efa989081fd77",
+          "size": 56842240,
+          "components": ["compiler", "rtl", "units", "utils"]
+        },
+        "windows-i386": {
+          "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.0.4/fpc-3.0.4.i386-win32.exe",
+          "mirrors": [],
+          "format": "exe",
+          "sha256": "1f6323d3362eca1f0b2f63160c2329205df0415f6aa9d8e42910629aaaa823bb",
+          "size": 40156912,
+          "components": ["compiler", "rtl", "units", "utils"]
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.0.4/fpc-3.0.4a.intel-macosx.dmg",
+          "mirrors": [],
+          "format": "dmg",
+          "sha256": "56b870fbce8dc9b098ecff3c585f366ad3e156ca32a6bf3b20091accfb252616",
+          "size": 108371671,
+          "components": ["compiler", "rtl", "units", "utils"]
+        }
+      },
+      "notes": "FPC 3.0.4 - macOS version is 3.0.4a with additional fixes"
     }
   }
 }
