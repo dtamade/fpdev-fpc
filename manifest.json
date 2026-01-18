@@ -45,7 +45,7 @@
         "linux-x86_64": {
           "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.0/fpc-3.2.0-x86_64-linux.tar",
           "hash": "sha256:d19252e6cfe52f1217f4822a548ee699eaa7e044807aaf8429a0532cb7e4cb3d",
-          "size": 84934656
+          "size": 84336640
         },
         "windows-i386": {
           "url": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.0/fpc-3.2.0.i386-win32.exe",
